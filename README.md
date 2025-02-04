@@ -22,8 +22,8 @@ Este projeto implementa um **semáforo controlado por temporizador periódico** 
 
 1. **Clone o repositório**:
     ```sh
-    git clone <URL_DO_REPOSITORIO>
-    cd <NOME_DO_REPOSITORIO>
+    git clone https://github.com/yuriccosta/temporizador_periodico
+    cd https://github.com/yuriccosta/temporizador_periodico
     ```
 
 2. **Configure o ambiente de desenvolvimento**:
