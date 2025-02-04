@@ -18,6 +18,31 @@ Este projeto implementa um **semáforo controlado por temporizador periódico** 
 4. Após **mais 3 segundos**, o LED verde apaga e o ciclo reinicia.  
 5. A cada **1 segundo**, uma mensagem é impressa na **porta serial** para monitoramento.
 
-## Instruções
-- Observe o tempo e os leds mudando ao passar do tempo
-- Conecte-se ao monitor serial e observe as mensagens
+## Instruções de Uso
+
+1. **Clone o repositório**:
+    ```sh
+    git clone <URL_DO_REPOSITORIO>
+    cd <NOME_DO_REPOSITORIO>
+    ```
+
+2. **Configure o ambiente de desenvolvimento**:
+    - Instale a extensão do vscode: Raspberry Pi Pico e configure o ambiente conforme instruções.
+    - Instale a extensão do vscode: Wokwi e configure o ambiente conforme instruções.
+
+3. **Compile o código**:
+    - Abra o projeto no VS Code.
+    - Aperte no botão Compile da extensão do Pico SDK.
+
+4. **Carregue o código na Bitdoglab**:
+    - Conecte a Bitdoglab ao computador.
+    - Entre no modo de gravação.
+    - Aperte no botão Run da extensão do Pico SDK.
+
+5. **Rode no wokwi integrado ao vscode**:
+    - Abra o arquivo diagram.json.
+    - Aperte no botão Run da extensão do Wokwi.
+
+6. **Execute o código**:
+    - O semáforo começará a alternar entre as cores a cada 3 segundos.
+    - Conecte-se ao monitor serial para observar as mensagens impressas a cada 1 segundo.
