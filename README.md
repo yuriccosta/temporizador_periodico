@@ -43,6 +43,6 @@ Este projeto implementa um **semáforo controlado por temporizador periódico** 
     - Abra o arquivo diagram.json.
     - Aperte no botão Run da extensão do Wokwi.
 
-6. **Execute o código**:
+6. **Executando o código**:
     - O semáforo começará a alternar entre as cores a cada 3 segundos.
     - Conecte-se ao monitor serial para observar as mensagens impressas a cada 1 segundo.
