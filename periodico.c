@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "pico/stdlib.h"
 
-
+// Define os pinos dos LEDs
 #define LED_PIN_RED 11
 #define LED_PIN_YELLOW 12
 #define LED_PIN_GREEN 13
@@ -41,8 +41,9 @@ int main()
     gpio_init(LED_PIN_GREEN);
     gpio_set_dir(LED_PIN_GREEN, GPIO_OUT);
 
-    struct repeating_timer timer;
 
+    // Configura um timer repetitivo para chamar a função de callback a cada 3 segundos
+    struct repeating_timer timer;
     add_repeating_timer_ms(3000, repeating_timer_callback, NULL, &timer);
 
     while (true) {
